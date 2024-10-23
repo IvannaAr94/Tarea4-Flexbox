@@ -1,0 +1,106 @@
+/*NO MODIFICAR*/
+
+body {
+    background-color: #fff;
+    color: #333;
+    font: 1.2em / 1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
+    padding: 1em;
+    margin: 0;
+}
+
+ul {
+    width: 800px;
+    height: 490px;
+    list-style:none;
+    padding: 0;
+    margin: 0;
+    border: 5px solid #4D7298;
+}
+
+li {
+    background-color: #4D7298;
+    border: 2px solid #77A6B6;
+    border-radius: .5em;
+    color: #fff;
+    padding: .5em;
+    margin: .5em;
+}
+
+/*DESDE ACA MODIFICAR*/
+/* Modificar los siguientes elementos para que se vea como en la imagen de la consigna */
+
+ul {    width: 900px; /*ancho*/
+        height: 400px; /*alto*/
+        list-style: none;
+        padding: 0;
+        margin: auto;
+        border: 2px solid #4D7298;
+        outline-width: 100px;
+        display: grid;
+        grid-template-columns: repeat(8, 1fr); /* Crear 8 columnas de igual tamano */
+        grid-template-rows: repeat(10, 1fr); /* Crear 10 filas */
+        gap: 1.5px; /* Espacio entre los elementos */
+    }
+    
+    li {
+        background-color: #4D7298;
+        border: 2px solid #77A6B6;
+        border-radius: .5em;
+        color: #fff;
+        padding: .5em;
+        margin: .5em;
+        text-align: center;
+        box-sizing: border-box;
+    }
+    
+    /*DESDE ACA MODIFICAR*/
+    
+    /* Roberto en la primera columna */
+    .l5 {
+        grid-column: 1; /* Columna 1 */
+        grid-row: 1; /* Primera fila */
+     
+    }
+    
+    /* Juan en la segunda columna, cuarta fila */
+    .l1 {
+        grid-column: 2; /* Columna 2 */
+        grid-row: 4; /* Cuarta fila */
+    }
+    
+    /* Cristian en la tercera columna, octava fila */
+    .l2 {
+        grid-column: 3; /* Columna 3 */
+        grid-row: 8; /* Octava fila */
+    }
+    
+    /* Ramon en la cuarta columna */
+    .l3 {
+        grid-column: 4; /* Columna 4 */
+        grid-row: 1 /span 10; /* Primera fila */
+        
+    }
+    
+    /* Pablo en la quinta columna */
+    .l4 {
+        grid-column: 5; /* Columna 5 */
+        grid-row: 1/span 10; /* Primera fila */
+    }
+    
+    /* Gabriel en la sexta columna */
+    .l6 {
+        grid-column: 6; /* Columna 6 */
+        grid-row: 1; /* Primera fila */
+    }
+    
+    /* Sebastian en la septima columna */
+    .l7 {
+        grid-column: 7; /* Columna 7 */
+        grid-row: 1; /* Primera fila */
+    }
+    
+    /* Ruben en la octava columna */
+    .l8 {
+        grid-column: 8; /* Columna 8 */
+        grid-row: 1; /* Primera fila */
+    }
